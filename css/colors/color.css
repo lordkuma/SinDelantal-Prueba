@@ -1,0 +1,147 @@
+ul.slimmenu li a.mPS2id-highlight.blog-post-link,
+.orange-heavy,
+#filter li .current,
+#filter li a:hover,
+#cboxClose:hover,
+#cboxNext:hover,
+#cboxPrevious:hover,
+.project-box p,
+ul.slimmenu li a.mPS2id-highlight, 
+.csstransforms3d .social-team a:hover span::before,
+.csstransforms3d .social-team a:focus span::before,
+#owl-team .item p span,
+.services-box p,
+#owl-facts .item p span,
+#owl-facts .item .item-icon,
+.contact-detals p span,
+.footer-social a:hover,
+.footer-social a::before,
+.footer-social a::after, 
+.footer-credit a:hover,
+.project-top-text .link-project-down a:hover,
+.project-top-text .link-project-down a::before,
+.project-top-text .link-project-down a::after,
+.project-top-text .link-project-down a span,
+.project-top-text p span,
+.project-arrow-left:hover,
+.project-arrow-right:hover,
+.project-close:hover,
+.footer-credit a::before,
+.post-content-com-top p span,
+.reply:hover,
+.footer-credit a::after,
+.list-social-share li:hover.icon-soc-share a,
+.list-in-blog-content li span,
+.facts-top-wrap-icon,
+#owl-testim .item .icon{
+	color: #41439B;
+	border-bottom:3px solid #41439B;
+}
+.footer-credit a span{
+	border-bottom:1px solid #FFFFFF;;
+}
+.csstransforms3d .work-link a:hover span::before,
+.csstransforms3d .work-link a:focus span::before,
+.csstransforms3d ul.slimmenu li a:hover span::before,
+.csstransforms3d ul.slimmenu li a:focus span::before,
+.csstransforms3d #ajax-form button:hover span::before,
+.csstransforms3d #ajax-form button:focus span::before,
+span.hei-text-pink,
+span.hei-text-pink-opac,
+.leave-reply input:active,
+.leave-reply input:focus,
+.leave-reply textarea:active,
+.leave-reply textarea:focus {
+	background-color: #333333;
+}
+.parallax-3rd .owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background:#FFFFFF;;
+}
+
+#ajax-form button{
+	color:#111111;;
+}
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	border-bottom:none;
+}
+#ajax-form textarea:focus,
+#ajax-form input:focus {	
+	border-bottom:none;
+}
+#ajax-form input:-ms-input-placeholder  {
+	color:#CCC;	
+}
+#ajax-form input::-moz-placeholder  {
+	color:#CCC;	
+}
+#ajax-form input:-moz-placeholder  {
+	color:#CCC;	
+}
+#ajax-form input::-webkit-input-placeholder  {
+	color:#CCC;	
+}
+#ajax-form textarea:-ms-input-placeholder  {
+	color:#CCC;	
+}
+#ajax-form textarea::-moz-placeholder  {
+	color:#CCC;	
+}
+#ajax-form textarea:-moz-placeholder  {
+	color:#CCC;	
+}
+#ajax-form textarea::-webkit-input-placeholder  {
+	color:#CCC;	
+}
+
+
+p.text-border-left{ 
+	border-left:3px solid #FFFFFF;
+}
+
+
+
+.leave-reply textarea:-ms-input-placeholder,
+.leave-reply input:-ms-input-placeholder  {
+	color:#111111;
+}
+.leave-reply textarea::-moz-placeholder,
+.leave-reply input::-moz-placeholder  {
+	color:#111111;
+}
+.leave-reply textarea:-moz-placeholder,
+.leave-reply input:-moz-placeholder  {
+	color:#111111;
+}
+.leave-reply textarea::-webkit-input-placeholder,
+.leave-reply input::-webkit-input-placeholder  {
+	color:#111111;
+}
+.post-sidebar input:-ms-input-placeholder  {
+	color:#111111;
+}
+.post-sidebar input::-moz-placeholder  {
+	color:#111111;
+}
+.post-sidebar input:-moz-placeholder  {
+	color:#111111;
+}
+.post-sidebar input::-webkit-input-placeholder  {
+	color:#111111;
+}
+
+.link-post:hover h5,
+.link-post:hover h5 span,
+.link-tag a:hover,
+.link-recents a:hover,
+button.post-comment{
+	color:#111111;
+}
+.link-post,
+.post-sidebar input:active,
+.post-sidebar input:focus,
+button.post-comment:hover{
+	background: #FFFFFF; 
+}

@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>JMQS - Checkout</title>
+    <meta name= "description" content= "Este es un ejercicio de prueba para Sin Delantal">
+	<meta name="author" content="JMQS">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/skeleton.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+		
+		
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png">   
+    <script src="js/jquery.plugin.js"></script>	
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>  
+
+     <script>
+	$(document).ready(function(){
+			$("#boton-credito").click(function() {   
+				$("#mostrar-oxxo").hide();
+				$("#mostrar-paypal").hide();
+				$("#mostrar-efectivo").hide();
+				$("#mostrar-credito").show();
+				$("#boton-oxxo-black").show();
+				$("#boton-oxxo").hide();	
+				$("#boton-paypal-black").show();
+				$("#boton-paypal").hide();	
+				$("#boton-efectivo-black").show();
+				$("#boton-efectivo").hide();	
+			});
+		});	
+	</script> 
+   
+     <script>
+	$(document).ready(function(){
+			$("#boton-credito-black").click(function() {  
+				$("#mostrar-oxxo").hide();
+				$("#mostrar-paypal").hide();
+				$("#mostrar-efectivo").hide();
+				$("#mostrar-credito").show();
+				$("#boton-oxxo-black").show();
+				$("#boton-credito-black").hide();
+				$("#boton-credito").show();	
+				$("#boton-oxxo").hide();	
+				$("#boton-paypal-black").show();
+				$("#boton-paypal").hide();	
+				$("#boton-efectivo-black").show();
+				$("#boton-efectivo").hide();	
+			});
+		});	
+	</script> 
+    
+    <script>
+	$(document).ready(function(){
+			$("#boton-oxxo").click(function() {        
+				$("#mostrar-credito").hide();
+				$("#mostrar-paypal").hide();
+				$("#mostrar-efectivo").hide();
+				$("#mostrar-oxxo").show();
+				$("#boton-credito-black").show();
+				$("#boton-credito").hide();	
+				$("#boton-paypal-black").show();
+				$("#boton-paypal").hide();	
+				$("#boton-efectivo-black").show();
+				$("#boton-efectivo").hide();	
+			});
+		});	
+	</script> 
+   
+   <script>
+	$(document).ready(function(){
+			$("#boton-oxxo-black").click(function() {  
+				$("#boton-oxxo-black").hide();
+				$("#boton-oxxo").show();
+				$("#mostrar-credito").hide();
+				$("#mostrar-paypal").hide();
+				$("#mostrar-efectivo").hide();
+				$("#mostrar-oxxo").show();
+				$("#boton-credito-black").show();
+				$("#boton-credito").hide();	
+				$("#boton-paypal-black").show();
+				$("#boton-paypal").hide();	
+				$("#boton-efectivo-black").show();
+				$("#boton-efectivo").hide();	
+			});
+		});	
+	</script> 
+    
+     <script>
+	$(document).ready(function(){
+			$("#boton-paypal").click(function() {  
+				$("#mostrar-oxxo").hide();
+				$("#mostrar-efectivo").hide();
+				$("#mostrar-credito").hide();
+				$("#boton-oxxo-black").show();
+				$("#boton-oxxo").hide();	
+				$("#boton-credito-black").show();
+				$("#boton-credito").hide();	
+				$("#boton-efectivo-black").show();
+				$("#boton-efectivo").hide();	
+				$("#mostrar-paypal").show();
+			});
+		});	
+	</script> 
+   
+   <script>
+	$(document).ready(function(){
+			$("#boton-paypal-black").click(function() {        
+				$("#mostrar-oxxo").hide();
+				$("#mostrar-efectivo").hide();
+				$("#mostrar-credito").hide();
+				$("#boton-oxxo-black").show();
+				$("#boton-oxxo").hide();	
+				$("#boton-credito-black").show();
+				$("#boton-credito").hide();	
+				$("#boton-efectivo-black").show();
+				$("#boton-efectivo").hide();
+				$("#boton-paypal-black").hide();
+				$("#boton-paypal").show();	
+				$("#mostrar-paypal").show();
+			});
+		});	
+	</script> 
+    
+     <script>
+	$(document).ready(function(){
+			$("#boton-efectivo").click(function() {    
+				$("#mostrar-oxxo").hide();
+				$("#mostrar-paypal").hide();
+				$("#mostrar-credito").hide();
+				$("#boton-oxxo-black").show();
+				$("#boton-oxxo").hide();	
+				$("#boton-paypal-black").show();
+				$("#boton-paypal").hide();	
+				$("#boton-credito-black").show();
+				$("#boton-credito").hide();	
+				$("#mostrar-efectivo").show();
+			});
+		});	
+	</script> 
+  
+   <script>
+	$(document).ready(function(){
+			$("#boton-efectivo-black").click(function() {        
+				$("#mostrar-oxxo").hide();
+				$("#mostrar-paypal").hide();
+				$("#mostrar-credito").hide();
+				$("#boton-oxxo-black").show();
+				$("#boton-oxxo").hide();	
+				$("#boton-paypal-black").show();
+				$("#boton-paypal").hide();	
+				$("#boton-credito-black").show();
+				$("#boton-credito").hide();	
+				$("#boton-efectivo-black").hide();
+				$("#boton-efectivo").show();
+				$("#mostrar-efectivo").show();
+			});
+		});	
+	</script> 
+   
+   <script>
+	$(document).ready(function(){
+			$("#boton-amex").click(function() {        
+				$("#mostrar-form").show();
+				$("#mostrar-amex").show();
+				$("#mostrar-mastercard").hide();
+				$("#mostrar-visa").hide();
+			});
+		});	
+	</script> 
+   
+   <script>
+	$(document).ready(function(){
+			$("#boton-mastercard").click(function() {   
+				$("#mostrar-form").show();
+				$("#mostrar-amex").hide();
+				$("#mostrar-mastercard").show();
+				$("#mostrar-visa").hide();
+			});
+		});	
+	</script> 
+   
+   <script>
+	$(document).ready(function(){
+			$("#boton-visa").click(function() {  
+				$("#mostrar-form").show();
+				$("#mostrar-amex").hide();
+				$("#mostrar-mastercard").hide();
+				$("#mostrar-visa").show();
+			});
+		});	
+	</script> 
+    
+</head>
+<body>
+	
+	
+	<!-- Navigatio and Logo ================= -->
+
+	
+	<nav id="menu-wrap" class="menu-back cbp-af-header">
+		<div class="container">
+			<div class="sixteen columns">            		
+				 <div class="logo"></div>
+			</div>
+            <div class="offset-by-twelve three columns">			
+				<ul class="slimmenu">
+					<li> 
+						<a href="#"><span data-hover="ayuda">Ayuda</span></a>
+						<img src="images/support.png">
+					</li>	
+				</ul>				
+			</div>      
+           
+		</div>
+	</nav>
+	
+	<!-- ================================================== -->
+	<div id="fullpage">
+		
+	<div class="container" id="seccion-usuario">
+    		 <div class="sixteen columns" id="titulo-datos">
+             	 <h4><span>Tus Datos de Envio</span></h4>
+             </div>
+             <div class="offset-by-one nine columns" id="contenedor-envio-borde">
+                    <div class="eight columns" id="datos-usuario">
+                    	<div class="one column" id="icono-usuario">
+                   			<img src="images/iconousuarios3.png">
+                    	</div>
+						<div class="six columns" id="contenedor-datos-usuario">
+							<p><strong>Nombre del usuario:</strong> Empresa XYZ</p>
+							<p><strong>Dirección del usuario:</strong> Calle Río Lerma 4, Piso 6, Colonia Cuauhtémoc, CP 53000, Ciudad de México</p>
+							<p><strong>Teléfono:</strong> 044 5533678909</p>
+						</div>
+                    </div>
+              </div>
+              <div class="five columns" id="contenedor-botones-envio">
+             	 <input id="boton-regresar" value="Regresar" type="button">
+             	 <input id="boton-cambiar-datos" value="Cambiar Dirección" type="button">
+             </div>
+	</div>
+    
+    <div class="container" id="seccion-productos">
+    		 <div class="sixteen columns" id="titulo-datos">
+             	 <h4><span>Tu Pedido</span></h4>
+              </div>
+              <div class="sixteen columns">
+              <div class="datos-producto">
+                        <div class="one column" id="icono-usuario">
+                        	<img src="images/tableta-asus.jpg">
+                        </div>
+                        <div class="seven columns">
+                            <p><strong>ASUS ZenPad </strong> Z300M-A2-GR 16GB Negro, Gris - Tablet (Tableta de tamaño
+    completo, IEEE 802.11n, Android, Pizarra, Android 6.0, Negro, Gris)</p>
+                        </div>
+                        <div class="two columns">
+                            <p><strong>Costo: </strong></p>
+                            <p>$3,380.95</p>
+                        </div>
+                        <div class="two columns">
+                            <p><strong>Cantidad: </strong></p>
+                            <p>2</p>
+                        </div>
+                        <div class="two columns">
+                        	<p><strong>Total: </strong></p>
+                            <p><span>$6,761.9</span></p>
+                        </div>
+                        <div class="one columns">
+                             <input class="boton-productos" value="X" type="button">
+                        </div>
+              </div>
+              </div>
+              <div class="sixteen columns">
+              <div class="datos-producto">
+                        <div class="one column" id="icono-usuario">
+                        	<img src="images/tableta-lenovo.jpg">
+                        </div>
+                        <div class="seven columns">
+                            <p><strong>Lenovo TAB3 Essential </strong>ZA0R0029US 7" Android Tablet</p>
+                        </div>
+                        <div class="two columns">
+                            <p><strong>Costo: </strong></p>
+                            <p>$1,495.31</p>
+                        </div>
+                        <div class="two columns">
+                            <p><strong>Cantidad: </strong></p>
+                            <p>1</p>
+                        </div>
+                        <div class="two columns">
+                        	<p><strong>Total: </strong></p>
+                            <p><span>$1,495.31</span></p>
+                        </div>
+                        <div class="one columns">
+                             <input class="boton-productos" value="X" type="button">
+                        </div>
+              </div>
+              </div>
+              <div class="sixteen columns">
+              <div class="datos-producto">
+                        <div class="one column" id="icono-usuario">
+                        	<img src="images/starwars.jpg">
+                        </div>
+                        <div class="seven columns">
+                            <p><strong>Star Wars Figuras de Acción Star Wars Black Series AT-AT Driver</strong> 6"</p>
+                        </div>
+                        <div class="two columns">
+                            <p><strong>Costo: </strong></p>
+                            <p>$449.00</p>
+                        </div>
+                        <div class="two columns">
+                            <p><strong>Cantidad: </strong></p>
+                            <p>1</p>
+                        </div>
+                        <div class="two columns">
+                        	<p><strong>Total: </strong></p>
+                            <p><span>$449.00</span></p>
+                        </div>
+                        <div class="one columns">
+                             <input class="boton-productos" value="X" type="button">
+                        </div>
+              </div>
+              </div>
+              <div class="sixteen columns">
+              <div class="datos-producto">                        
+                        <div class="offset-by-ten two columns">
+                            <h5><strong>TOTAL</strong></h5>
+                        </div>
+                        <div class="two columns">
+                        	<h5><strong><span>$8,706.21</span></strong></h5>
+                        </div>
+              </div>
+              </div>
+              
+              
+	</div>
+    
+    <div class="container" id="seccion-pago">
+    		  <div class="sixteen columns" id="titulo-datos">
+             	 <h4><span>MÉTODO DE PAGO</span></h4>
+              </div>
+              <div class="sixteen columns" id="datos-pago">
+              	<div class="offset-by-two three columns">
+              	<p>Oxxo</p>
+				<input id="boton-oxxo" type="button">
+				<input id="boton-oxxo-black" type="button" style="display: none;">
+                </div>
+                <div class="three columns">
+                <p>Tarjeta de Crédito</p>
+                <input id="boton-credito" type="button">
+                <input id="boton-credito-black" type="button" style="display: none;">
+                </div>
+                <div class="three columns">
+                <p>Paypal</p>
+                <input id="boton-paypal" type="button">
+                <input id="boton-paypal-black" type="button" style="display: none;">
+                </div>
+                <div class="three columns">
+                <p>Efectivo</p>
+                <input id="boton-efectivo" type="button">
+                <input id="boton-efectivo-black" type="button" style="display: none;">
+                </div>
+              </div>
+              <div class="sixteen columns" id="mostrar-oxxo" style="display: none;"> 
+              	<input id="boton-generar-oxxo" value="Ficha Pago Oxxo" type="button">
+			  </div>
+              <div class="sixteen columns" id="mostrar-credito" style="display: none;"> 
+                  		<hr />
+							<h5 id="titulo-seleccion-tarjeta"><span>SELECCIONA EL TIPO DE TARJETA</span></h5>
+						<hr />
+                   		 <div class="five columns">
+                   			<div class="five columns">
+								<input id="boton-amex" type="button">
+							</div>
+							<div class="five columns">
+								<input id="boton-visa" type="button">
+							</div>
+							<div class="five columns">
+								<input id="boton-mastercard" type="button">
+          					</div>
+          				</div>	
+            			<div class="ten columns" id="mostrar-form" style="display: none;">
+            			
+            						
+									<div class="form-group" id="mostrar-amex" style="display: none;">
+										<input type="text" id="AmexCard" value="American Express" placeholder="American Express" />										
+									</div>
+									
+									<div class="form-group" id="mostrar-mastercard" style="display: none;">
+										<input type="text" id="MasterCard" value="Master Card" placeholder="Master Card" />										
+									</div>
+								
+									
+									<div class="form-group" id="mostrar-visa" style="display: none;">
+										<input type="text" id="VisaCard" value="Visa" placeholder="Visa" />										
+									</div>
+								
+									<div class="form-group">
+												<input type="text" id="CreditCardNumber" placeholder="Número de Tarjeta" />
+												<span class="help-info"></span>
+												<input type="text" id="ExpDate" placeholder="MM / AA" />
+												<span class="help-info"></span>
+
+												<div class="ib">
+												  <input type="text" id="SecCode" placeholder="CVV" />
+												  <span class="help-info"></span>
+												</div>
+									</div>
+
+									<div class="form-group">
+												<input type="text" id="OwnerName" placeholder="Nombre del titular" />
+												<span class="help-info"></span>
+									</div>
+
+									<div class="form-submit">
+												<div class="pay-wrap">
+												  <input type="submit" id="pay" value="Pagar $8,706.21" />
+												</div>
+												<p>
+												Tu pago será procesado al hacer click<br>
+												</p>
+									</div>
+
+									<div class="processing">
+									</div>
+
+									<div class="success">
+												<h2>Listo, pago procesado</h2>
+									</div>
+						</div>
+             			
+              </div>
+             
+              <div class="sixteen columns" id="mostrar-paypal" style="display: none;"> 
+              	<input id="boton-generar-paypal" value="Entrar a mi cuenta" type="button">
+			  </div>
+              <div class="sixteen columns" id="mostrar-efectivo" style="display: none;"> 
+              	<input id="boton-generar-efectivo" value="Ficha Pago Efectivo" type="button">
+			  </div>
+      </div>
+              
+	</div>
+          
+   
+           
+	<!-- ================================================== -->
+  
+	<div class="section">			
+				<div class="footer-wrap">
+					<div class="footer-credit">	
+						<div class="container">
+							<div class="sixteen columns">
+								<img src="images/logofooter.png">
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>	
+
+
+	
+	<!-- JAVASCRIPT
+    ================================================== -->
+ 
+<script type="text/javascript" src="js/modernizr.custom.js"></script>	 
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/navigation.js"></script>	
+<script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js'></script>
+<script  src="js/index.js"></script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
