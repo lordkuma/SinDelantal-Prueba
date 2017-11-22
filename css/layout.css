@@ -522,22 +522,22 @@ margin-top:18%;
 margin-top:30%!important;
 }		
 #icono-usuario img{
-padding-left: 30%;
-padding-right: 30%;
+padding-left: 30%!important;
+padding-right: 30%!important;
 width: 40%!important;
 }
 
 #boton-cambiar-datos{
-	height:45px;
-	font-size: 17px;
-	line-height:17px;
-	margin-bottom: 8%;
+	height:45px!important;
+	font-size: 17px!important;
+	line-height:17px!important;
+	margin-bottom: 8%!important;
 }
 
 #boton-regresar{
-	height:45px;
-	font-size: 17px;
-	line-height:17px;
+	height:45px!important;
+	font-size: 17px!important;
+	line-height:17px!important;
 }
 .boton-productos{
 		width:20%!important;
@@ -545,39 +545,39 @@ width: 40%!important;
 
 #boton-oxxo{
 	
-	height:40px; 
+	height:40px!important; 
 }
 
 #boton-oxxo-black{
-	height:40px; 
+	height:40px!important; 
 }
 
 #boton-credito{
-	height:40px; 
+	height:40px!important; 
 }
 
 #boton-credito-black{
-	height:40px; 
+	height:40px!important; 
 }
 
 #boton-paypal{
-	height:40px; 
+	height:40px!important; 
 }
 
 #boton-paypal-black{
-	height:40px; 
+	height:40px!important; 
 }
 
 #boton-efectivo{
-	height:40px; 
+	height:40px!important;
 }
 
 #boton-efectivo-black{
-	height:40px; 
+	height:40px!important; 
 }
 
 #boton-amex{
-	height:40px; 
+	height:40px!important; 
 }
 
 #pay {
@@ -588,7 +588,7 @@ width: 40%!important;
 .form-group input, .form-group select {
   padding: 5px 3px 5px 3px!important;
   width: 100%!important;
-	margin: 5px 0px 5px 0px;
+  margin: 5px 0px 5px 0px!important;
 }
 
 }
